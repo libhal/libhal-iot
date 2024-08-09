@@ -12,9 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#pragma once
+#include "libhal-iot/iot.hpp"
 
-namespace hal::__device__ {   // NOLINT
-struct __device___replace_me  // NOLINT
-{};
-}  // namespace hal::__device__
+namespace hal::iot {
+}  // namespace hal::iot
