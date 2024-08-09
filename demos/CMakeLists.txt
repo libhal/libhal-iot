@@ -18,14 +18,14 @@ project(demos LANGUAGES CXX)
 
 libhal_build_demos(
   DEMOS
-  __device__
+  iot
 
   INCLUDES
   .
 
   PACKAGES
-  libhal-__device__
+  libhal-iot
 
   LINK_LIBRARIES
-  libhal::__device__
+  libhal::iot
 )
