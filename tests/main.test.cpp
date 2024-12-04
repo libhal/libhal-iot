@@ -13,10 +13,8 @@
 // limitations under the License.
 
 namespace hal::iot {
-extern void iot_test();
 }  // namespace hal::iot
 
 int main()
 {
-  hal::iot::iot_test();
 }

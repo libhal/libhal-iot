@@ -17,8 +17,7 @@
 #include <boost/ut.hpp>
 
 namespace hal::iot {
-void iot_test()
-{
+boost::ut::suite iot_test = [] {
   using namespace boost::ut;
   using namespace std::literals;
 
