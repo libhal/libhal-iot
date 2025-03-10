@@ -16,5 +16,7 @@
 
 namespace hal::iot {
 struct iot_replace_me
-{};
+{
+  iot_replace_me();
+};
 }  // namespace hal::iot
