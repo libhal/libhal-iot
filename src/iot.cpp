@@ -12,7 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "libhal-iot/iot.hpp"
+#include <libhal-iot/iot.hpp>
+
+namespace {
+int do_something_variable = 0;
+}
 
 namespace hal::iot {
+iot_replace_me::iot_replace_me()
+{
+  // Do nothing here, but give something to be contained in the .a archive file
+  do_something_variable++;
+}
 }  // namespace hal::iot

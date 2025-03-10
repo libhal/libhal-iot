@@ -16,5 +16,5 @@
 
 int main()
 {
-  hal::iot::iot_replace_me bar;
+  hal::iot::iot_replace_me foo;
 }
