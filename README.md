@@ -27,15 +27,15 @@ or for the `stm32f103c8`
 conan build demos -pr stm32f103c8 -pr arm-gcc-12.3
 ```
 
-## 📦 Building The Library Package Demos
+## 📦 Building & Installing the Library Package
 
-To build demos, start at the root of the repo and execute the following command:
+To build and install the package to your local cache for use in an application or to build another library, start at the root of the repo and execute the following command:
 
 ```bash
 conan create . -pr lpc4078 -pr arm-gcc-12.3 --version=latest
 ```
 
-To compile the package for the `stm32f103c8` or `lpc4074`, simply replace the `lpc4078` profile with the appropriate profile name. For example:
+The above only builds the package for the `lpc4078` microcontroller. If you need to build the package for another microcontroller like the `stm32f103c8` or `lpc4074`, simply replace the `lpc4078` profile with the appropriate profile name. For example:
 
 ```bash
 conan create . -pr stm32f103c8 -pr arm-gcc-12.3 --version=latest
